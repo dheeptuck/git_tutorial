@@ -1,6 +1,6 @@
 #include <iostream>
 #include "string.h"
-
+#include "math.h"
 
 using namespace std;
 
@@ -16,9 +16,13 @@ int main()
 
 	int res = 0;
 
-	if(optr == "+")
+	if(optr == "+")	
 	{
 		res = num1 + num2;
+	}
+	else if(optr == "sqrt")
+	{
+		res = sqrt(num1);
 	}
 
 	cout<<num1 << " " << num2 << " " << optr << endl;
