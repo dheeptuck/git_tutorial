@@ -18,7 +18,7 @@ int main()
 
 	if(optr == "+")	
 	{
-		res = num1 + num2;
+		res = num2 + num1;
 	}
 	else if(optr == "sqrt")
 	{
