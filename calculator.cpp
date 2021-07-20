@@ -16,11 +16,11 @@ int main()
 
 	int res = 0;
 
-	if(optr == "+")
+	if(optr == "+")	
 	{
 		res = num1 + num2;
 	}
-	else if(optr == "//")
+	else if(optr == "sqrt")
 	{
 		res = sqrt(num1);
 	}
