@@ -24,6 +24,14 @@ int main()
 	{
 		res = sqrt(num1);
 	}
+	else if(optr == "/")
+	{
+		res = num1/num2;
+	}
+	else if(optr == "-")
+	{
+		res = num2-num1;
+	}
 
 	cout<<num1 << " " << num2 << " " << optr << endl;
 
