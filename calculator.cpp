@@ -20,6 +20,10 @@ int main()
 	{
 		res = num1 + num2;
 	}
+	else if(optr == "-")
+	{
+		res = num1-num2;
+	}
 	else if(optr == "sqrt")
 	{
 		res = sqrt(num1);
